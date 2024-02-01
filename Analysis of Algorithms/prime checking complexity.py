@@ -28,5 +28,8 @@ y_real=[math.sqrt(x)-1 for x in x_values]
 plt.title("Time Complexity of Primality check: $\mathcal{O}(\sqrt{n})$")
 plt.scatter(x_values, y_values, color='magenta')
 plt.plot(x_values, y_real, color='black')
+plt.xlabel("input")
+plt.ylabel("Number of iterations")
+
 
 plt.show()
