@@ -23,7 +23,7 @@ for n in range(2,100): #avoided the edge cases for fun.
         print(n, "is a prime")
         y_values.append(count)
 
-y_real=[math.sqrt(x)-1 for x in x_values]
+y_real=[math.sqrt(x) for x in x_values]
 
 plt.title("Time Complexity of Primality check: $\mathcal{O}(\sqrt{n})$")
 plt.scatter(x_values, y_values, color='magenta')
