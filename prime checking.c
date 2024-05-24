@@ -9,6 +9,8 @@ int is_prime(int n){
 }
 int main(){
 int n=773;   //Change your number here 
+    
 is_prime(n)? printf("It's prime"): printf("It's not  prime");
-
+    
+return 0;
 }
