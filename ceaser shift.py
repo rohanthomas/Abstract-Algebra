@@ -11,3 +11,8 @@ def ceasershift(message,shift):
   return encrypt
 
 ceasershift("HELLO I AM ROHAN",2)
+
+#A Trivial way to break a ceaser cypher. 
+
+for x in range(0,25):
+  print(ceasershift("UCCRZIQYOBRVOJSTIB",x)) #run to find it out :)
